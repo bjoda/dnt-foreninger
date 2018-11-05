@@ -7,10 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "ng": "ng",
     "postinstall": "ng build --aot --prod",
+    "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
